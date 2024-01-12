@@ -1,0 +1,29 @@
+/* shared styles  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a{
+    text-decoration: none;
+}
