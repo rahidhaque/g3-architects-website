@@ -186,7 +186,7 @@ nav>ul {
         flex-direction: column;
     }
 
-    .fact-types .fact-center>img {
+    .card {
         margin-top: 50px;
     }
 
@@ -214,7 +214,7 @@ nav>ul {
         flex-direction: column;
     }
 
-    .fact-types .fact-center>img {
+    .card {
         margin-top: 50px;
     }
 
