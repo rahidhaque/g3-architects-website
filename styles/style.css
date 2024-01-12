@@ -137,8 +137,12 @@ nav>ul {
         max-width: 576px;
     }
 
-    nav,
-    .features {
+    .features{
+        flex-direction: column-reverse;
+    }
+
+    nav
+     {
         flex-direction: column;
     }
 
