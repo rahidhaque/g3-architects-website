@@ -112,7 +112,7 @@ nav>ul {
     gap: 24px;
 }
 
-.features-img img{
+.features-img img {
     border-radius: 8px;
     width: 100%;
 }
@@ -137,12 +137,10 @@ nav>ul {
         max-width: 576px;
     }
 
-    .features{
-        flex-direction: column-reverse;
-    }
 
-    nav
-     {
+
+    nav,
+    .features {
         flex-direction: column;
     }
 
