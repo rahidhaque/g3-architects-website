@@ -46,6 +46,7 @@ a {
 
 header {
     background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
 }
 
 nav {
@@ -95,6 +96,10 @@ nav>ul {
 /* mobile device styles  */
 @media screen and (max-width: 576px) {
 
+    header{
+        padding: 20px;
+    }
+
     .container {
         max-width: 576px;
     }
@@ -115,6 +120,8 @@ nav>ul {
 
 /* tablet or medium devices  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
+
     .container{
         min-width: 576px;
         max-width: 960px;
