@@ -227,6 +227,10 @@ footer{
     .banner img {
         width: 100%;
     }
+
+    .footer-text{
+        padding: 20px;
+    }
 }
 
 
