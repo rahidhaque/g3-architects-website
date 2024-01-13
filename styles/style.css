@@ -98,7 +98,7 @@ nav>ul {
 
 /* main section styles  */
 
-/* Features styles */
+/* teams styles */
 .teams {
     display: flex;
     justify-content: space-around;
@@ -126,6 +126,76 @@ nav>ul {
     max-width: 537px;
     padding-bottom: 32px;
 }
+
+/* features styles  */
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.feature-content p {
+    padding-top: 24px;
+    padding-bottom: 30px;
+    max-width: 586px;
+}
+
+.feature-content .section-header{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-detail {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+.feature-detail-card {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-header {
+    padding-bottom: 10px;
+}
+
+.feature-detail-card span {
+    max-width: 514px;
+}
+
+.feature-img img{
+    height: 90%;
+    margin-left: 50px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    padding: 40px;
+    width: 342px;
+    position: relative;
+    bottom: 70px;
+}
+
+.ten-years-badge h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.ten-years-badge p {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 
 /* facts styles  */
 
@@ -185,10 +255,11 @@ nav>ul {
 
 
 /* footer styles  */
-footer{
+footer {
     text-align: center;
     margin-bottom: 38px;
 }
+
 .footer-text {
     color: var(--Dark-02, #424242);
     font-size: 20px;
@@ -211,8 +282,18 @@ footer{
     nav,
     .teams,
     .fact-types,
-    .companies {
+    .companies,
+    .features {
         flex-direction: column;
+    }
+
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten-years-badge{
+       width: 170px;
     }
 
     .card,
@@ -228,7 +309,7 @@ footer{
         width: 100%;
     }
 
-    .footer-text{
+    .footer-text {
         padding: 20px;
     }
 }
@@ -237,16 +318,25 @@ footer{
 /* tablet or medium devices  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
-
     .container {
-        min-width: 576px;
-        max-width: 960px;
+        max-width: 992px;
     }
 
     nav,
     .fact-types,
-    .companies {
+    .companies,
+    .features 
+    {
         flex-direction: column;
+    }
+
+    .feature-img img{
+        width: 100%;
+    }
+
+    .ten-years-badge{
+       width: 170px;
+       margin-left: 0;
     }
 
     .card,
